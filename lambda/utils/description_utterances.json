@@ -1,0 +1,35 @@
+{
+    "color": {
+        "0": ["Mein Objekt hat die Farbe {}",
+            "Mein Objekt ist {}"
+        ]   
+    },
+
+    "shape": {
+        "0": ["Mein Objekt ist {}",
+            "Mein Objekt hat folgende Form {}"
+        ],
+        "1": ["Mein Objekt ist geformt wie {}",
+            "Mein Objekt hat eine ähnliche Form wie {}" 
+        ]
+    },
+
+    "location": {
+        "0": ["Mein Objekt befindet sich {}",
+            "Mein Objekt ist {}",
+            "Im Bild ist mein Objekt {}", 
+            "Mein Objekt versteckt sich {}"
+        ]},
+
+    "other_description": {
+        "0": ["Mit meinem Objekt verbinde ich das Wort {}",
+            "Mit meinem Objekt verbinde ich den Begriff {}",
+            "Mit meinem Objekt assoziiere ich das Wort {}"
+        ]
+    
+    }
+
+
+
+
+}

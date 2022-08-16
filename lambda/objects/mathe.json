@@ -1,0 +1,25 @@
+{
+
+    "color": [
+        "schwarz",
+        "grün",
+        "gelb",
+        "rot"
+    ],
+
+    "shape": [
+        
+    ],
+
+    "location":[
+        "rechts", 
+        "oben",
+        "oben-rechts"
+    ], 
+    "other_description": [
+        "zahlen",
+        "graph"
+    ]
+
+
+}

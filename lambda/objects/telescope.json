@@ -1,0 +1,26 @@
+{
+
+    "color": [
+        "grau",
+        "weiß",
+        "schwarz"
+    ],
+
+    "shape": [
+        "rund",
+        "lang",
+        "zylinder"
+    ],
+
+    "location":[
+        "rechts", 
+        "oben",
+        "oben-rechts"
+    ], 
+    "other_description": [
+        "weltall", 
+        "fernrohr"
+    ]
+
+
+}

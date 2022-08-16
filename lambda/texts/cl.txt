@@ -1,0 +1,9 @@
+Die Regelstudienzeit des Computerlinguistik Bachelor Studiums beträgt 6 Semester. 
+Im Grundstudium werden zunächst sprachwissenschaftliche, informatische 
+und mathematische Grundlagen vermittelt.<br><br>
+
+Das Studium von Grammatiken, Lexika und Textstrukturen und die Beschäftigung 
+mit Textkorpora und statistische Verfahren führt zu einer Vertiefung mit der 
+Materie. Andere Kurse schlagen eine Brücke zur theoretischen Informatik und 
+wenden deren Methoden auf die Sprachverarbeitung an. Außerdem nimmt die 
+Programmiersprachenausbildung einen wichtigen Platz im Lehrplan ein.

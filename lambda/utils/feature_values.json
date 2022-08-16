@@ -1,0 +1,263 @@
+{
+    "weiß": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "weiß"
+    },
+    "rot": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "rot"
+    },
+    "grün": {
+        "feature": "color",
+        "type": "0", 
+        "verbal": "grün"
+    },
+    "grau": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "grau"
+    },
+    "schrift": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "schrift"
+    },
+    "links": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "links"
+    },
+    "unten": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "unten"
+    },
+    "unten-links": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "unten links"
+    },
+    "rund": {
+        "feature": "shape",
+        "type": "0",
+        "verbal": "rund"
+    },
+    "rechts": {
+        "feature": "location",
+        "type": "0", 
+        "verbal": "rechts"
+    },
+    "unten-rechts": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "unten rechts"
+    },
+    "gelb": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "gelb"
+    },
+    "schwarz": {
+        "feature": "color",
+        "type": "0", 
+        "verbal": "schwarz"
+    },
+    "lang": {
+        "feature": "shape",
+        "type": "0",
+        "verbal": "länglich"
+    },
+    "fliegen": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "fliegen"
+    },
+    "stechen": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "stechen"
+    },
+    "mitte": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "mittig"
+    },
+    "eckig": {
+        "feature": "shape",
+        "type": "0",
+        "verbal": "eckig"
+    },
+    "zahlen": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "Zahlen"
+    },
+    "blau": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "blau"
+    },
+    "birne": {
+        "feature": "shape",
+        "type": "1",
+        "verbal": "eine birne"
+    },
+    "strom": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "Strom"
+    },
+    "oben": {
+        "feature": "location",
+        "type": "0", 
+        "verbal": "oben"
+    },
+    "mitte-oben": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "oben mittig"
+    },
+    "schwimmen": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "schwimmen"
+    },
+    "roboter": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "roboter"
+    },
+    "chemie": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "chemie"
+    },
+    "oben-rechts": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "oben rechts"
+    },
+    "antik": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "antik"
+    },
+    "oben-links": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "oben links"
+    },
+    "rosa": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "rosa"
+    },
+    "mensch": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "Mensch"
+    },
+    "hut": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "hut"
+    },
+    "mitte-unten": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "unten mittig"
+    },
+    "hellblau": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "hellblau"
+    },
+    "flagge": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "flagge"
+    },
+    "sterne": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "sterne"
+    },
+    "klima": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "klima"
+    },
+    "erde": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "erde"
+    },
+    "computer": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "computer"
+    },
+    "graph": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "Graph"
+    },
+    "weltall": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "Weltall"
+    },
+    "schule": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "schule"
+    },
+    "zylinder": {
+        "feature": "shape",
+        "type": "1",
+        "verbal": "ein zylinder"
+    },
+    "fernrohr": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "fernrohr"
+    },
+    "stachel": {
+        "feature": "shape",
+        "type": "0",
+        "verbal": "stachelig"
+    },
+    "krankheit": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "krankheit"
+    },
+    "mitte-rechts": {
+        "feature": "location",
+        "type": "0",
+        "verbal": "mittig rechts"
+    },
+    "pink": {
+        "feature": "color",
+        "type": "0",
+        "verbal": "pink"
+    },
+    "topf": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "topf"
+    },
+    "blatt": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "blatt"
+    },
+        "tier": {
+        "feature": "other_description",
+        "type": "0",
+        "verbal": "tier"
+    }
+
+}

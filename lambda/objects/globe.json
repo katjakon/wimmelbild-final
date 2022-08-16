@@ -1,0 +1,21 @@
+{
+
+    "color": [
+        "grün", 
+        "blau"
+    ],
+
+    "shape": [
+        "rund"
+    ],
+
+    "location": [
+        "mitte", 
+        "oben"
+    ], 
+    "other_description": [
+        "erde"
+    ]
+
+
+}

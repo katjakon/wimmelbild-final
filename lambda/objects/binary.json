@@ -1,0 +1,22 @@
+{
+
+    "color": [
+        "weiß",
+        "schwarz"
+    ],
+
+    "shape": [
+        "rund",
+        "eckig"
+    ],
+
+    "location":[
+        "mitte"
+    ],
+    "other_description": [
+        "schrift",
+        "zahlen"
+    ]
+
+
+}

@@ -1,0 +1,33 @@
+{
+    "imageListData": {
+        "type": "object",
+        "objectId": "paginatedListSample",
+        "title": "zurück zur Übersicht",
+        "listItems": [
+            {
+                "primaryText": "Clubs",
+                "imageSource": "https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "Kneipen",
+                "imageSource": "https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            },
+            {
+                "primaryText": "Sport",
+                "imageSource": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "Lesen",
+                "imageSource": "https://images.pexels.com/photos/810029/pexels-photo-810029.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "Politik",
+                "imageSource": "https://images.pexels.com/photos/2559749/pexels-photo-2559749.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "Zocken",
+                "imageSource": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            }
+        ]
+    }
+}

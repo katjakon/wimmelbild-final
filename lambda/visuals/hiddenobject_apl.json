@@ -1,0 +1,117 @@
+{
+  "type": "APL",
+  "version": "1.8",
+  "license": "Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.\nSPDX-License-Identifier: LicenseRef-.amazon.com.-AmznSL-1.0\nLicensed under the Amazon Software License  http://aws.amazon.com/asl/",
+  "theme": "dark",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.5.0"
+    }
+  ],
+  "mainTemplate": {
+    "parameters": [
+      "lightbulb",
+      "hiddenObjectsImage"
+    ],
+    "items": [
+      {
+        "type": "Container",
+        "height": "100%",
+        "width": "100%",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "bind": [
+          {
+            "name": "relHeight",
+            "value": "${viewport.height / 0.75}"
+          },
+          {
+            "name": "sideContainerWidth",
+            "value": "${(viewport.width - (viewport.height / 0.75)) / 2}"
+          },
+          {
+            "name": "imageState",
+            "value": false
+          },
+          {
+            "name": "currentBackgroundImage",
+            "value": "${imageState ? hiddenObjectsImage.highlightObjectsOn: hiddenObjectsImage.highlightObjectsOff}"
+          },
+          {
+            "name": "currentLightbulbImage",
+            "value": "${imageState ? lightbulb.lightbulbOn: lightbulb.lightbulbOff}"
+          }
+        ],
+        "items": [
+          {
+            "type": "AlexaBackground",
+            "backgroundAlign": "center",
+            "backgroundImageSource": "${currentBackgroundImage}",
+            "backgroundScale": "best-fit",
+            "backgroundBlur": false,
+            "headerBackButton": true,
+            "headerBackButtonCommand": {
+              "type": "SendEvent",
+              "arguments": [
+                "goBacktoHomescreen",
+                "Du hast den Zurück-Knopf gedrückt."
+              ]
+            }
+          },
+          {
+            "type": "Container",
+            "height": "100%",
+            "width": "100%",
+            "direction": "row",
+            "items": [
+              {
+                "type": "Container",
+                "height": "100%",
+                "width": "${sideContainerWidth}",
+                "direction": "column",
+                "justifyContent": "end",
+                "items": [
+                  {
+                    "type": "AlexaBackground",
+                    "backgroundColor": "black"
+                  },
+                  {
+                    "type": "TouchWrapper",
+                    "width": "100%",
+                    "height": "${sideContainerWidth}",
+                    "items": [
+                      {
+                        "type": "Container",
+                        "width": "100%",
+                        "height": "100%",
+                        "alignItems": "center",
+                        "item": [
+                          {
+                            "type": "Image",
+                            "source": "${currentLightbulbImage}",
+                            "scale": "best-fit-down",
+                            "align": "center",
+                            "width": "80%",
+                            "height": "80%"
+                          }
+                        ]
+                      }
+                    ],
+                    "onPress": [
+                      {
+                        "type": "SetValue",
+                        "property": "imageState",
+                        "value": "${!imageState}"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

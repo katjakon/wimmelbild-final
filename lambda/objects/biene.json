@@ -1,0 +1,25 @@
+{
+
+    "color": [
+        "gelb",
+        "schwarz",
+        "weiß"
+    ],
+
+    "shape": [
+        "rund",
+        "lang"
+    ],
+
+    "location": [
+        "mitte",
+        "rechts"
+    ],
+    "other_description": [
+        "fliegen",
+        "stechen",
+        "tier"
+    ]
+
+
+}

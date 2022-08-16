@@ -1,0 +1,26 @@
+{
+
+    "color": [
+        "blau",
+        "hellblau",
+        "grau"
+    ],
+
+    "shape": [
+        "eckig"
+        
+    ],
+
+    "location":[
+        "links", 
+        "unten",
+        "unten-links"
+    ],
+    "other_description":
+    [
+        "flagge", 
+        "sterne"
+    ]
+
+
+}

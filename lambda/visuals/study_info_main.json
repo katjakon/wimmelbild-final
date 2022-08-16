@@ -1,0 +1,122 @@
+{
+  "type": "APL",
+  "version": "1.8",
+  "license": "Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.\nSPDX-License-Identifier: LicenseRef-.amazon.com.-AmznSL-1.0\nLicensed under the Amazon Software License  http://aws.amazon.com/asl/",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.5.0"
+    }
+  ],
+  "mainTemplate": {
+    "parameters": [
+      "fachData",
+      "general",
+      "timerData",
+      "wimmelbild"
+    ],
+    "items": [
+      {
+        "type": "Container",
+        "bind": [
+          {
+            "name": "remainingTimerDuration",
+            "value": "${Time.seconds(timerData.timerDuration)}"
+          },
+          {
+            "name": "containerDisabled",
+            "value": "${remainingTimerDuration > 0 ? true : false}"
+          },
+          {
+            "name": "containerDisplayed",
+            "value": "${remainingTimerDuration > 0 ? 'invisible': 'normal'}"
+          },
+          {
+            "name": "element",
+            "value": "${wimmelbild.choice}"
+          },
+          {
+            "name": "currentImage",
+            "value": "${wimmelbild.images[element]}"
+          }
+        ],
+        "handleTick": [
+          {
+            "type": "Sequential",
+            "when": "${remainingTimerDuration > 0}",
+            "minimumDelay": 1000,
+            "commands": [
+              {
+                "type": "SetValue",
+                "property": "remainingTimerDuration",
+                "value": "${remainingTimerDuration - 1}"
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "type": "AlexaBackground",
+            "backgroundAlign": "center",
+            "backgroundImageSource": "${currentImage}",
+            "backgroundScale": "best-fit",
+            "backgroundBlur": false,
+            "headerBackButton": false
+          },
+          {
+            "type": "Container",
+            "width": "100%",
+            "height": "100%",
+            "alignItems": "center",
+            "disabled": "${containerDisabled}",
+            "display": "${containerDisplayed}",
+            "justifyContent": "center",
+            "items": [
+              {
+                "type": "AlexaDetail",
+                "detailType": "generic",
+                "detailImageAlignment": "right",
+                "headerTitle": "${general.backButtonText}",
+                "imageBlurredBackground": true,
+                "imageAspectRatio": "square",
+                "imageSource": "${fachData.imageSource[element]}",
+                "imageCaption": "${fachData.imageCaption[element]}",
+                "bodyText": "${fachData.mainText[element]}",
+                "primaryText": "${fachData.subject[element]}",
+                "secondaryText": "${fachData.studycheckRating[element]}",
+                "button1Text": "Aufbau",
+                "button1PrimaryAction": [
+                  {
+                    "type": "SendEvent",
+                    "arguments": [
+                      "Aufbau"
+                    ]
+                  }
+                ],
+                "button2Text": "Zufalls-Studienort",
+                "button2PrimaryAction": [
+                  {
+                    "type": "SendEvent",
+                    "arguments": [
+                      "Ort"
+                    ]
+                  }
+                ],
+                "headerBackButton": true,
+                "headerBackButtonAction": [
+                  {
+                    "type": "sendEvent",
+                    "arguments": [
+                      "again"
+                    ]
+                  }
+                ],
+                "backgroundColor": "${fachData.backgroundColor[element]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+    "shape": [
+        "Welche Form hat dein Objekt?",
+        "Wie ist dein Objekt geformt?",
+        ""
+    ],
+    "color": [
+        "Welche Farbe hat dein Objekt?",
+        "Was für Farben hat dein Objekt?"
+    ], 
+    "location": [
+        "Wo befindet sich dein Objekt?", 
+        "Wo im Bild ist das Objekt?",
+        "An welchem Ort ist das Objekt?"
+    ],
+    "other_description": [
+        "Ich brauche noch mehr Informationen",
+        "Sag mir noch mehr über dein Objekt",
+        "Was kannst du mir noch über dein Objekt sagen?",
+        "Beschreibe mir dein Objekt noch genauer",
+        "Wie würdest du dein Objekt noch beschreiben?"
+    ], 
+    "wrong_guess": [
+        "<say-as interpret-as='interjection'>oh nein</say-as>, dann mach mal weiter mit beschreiben.",
+        "<say-as interpret-as='interjection'>schade</say-as>, mach weiter mit deiner Beschreibung.",
+        "Dann hab ich mich wohl geirrt. Was kannst du mir noch über dein Objekt sagen?",
+        "Na gut, dann beschreibe mir dein Objekt noch genauer."
+    ],
+    "filler": [
+        "Also",
+        "Alles klar",
+        "<say-as interpret-as='interjection'>Okey dokey</say-as>",
+        "Ok",
+        "<say-as interpret-as='interjection'>Hm</say-as>"
+    ],
+    "i_know_sth": [
+        "Ich habe nachgedacht",
+        "Wie wärs damit",
+        "Ich hab was",
+        "Hör zu",
+        "Sagen wir es so"
+    ],
+    "wrong": [
+        "Alles weiß ich auch nicht, aber ich denke, dass ist falsch",
+        "<say-as interpret-as='interjection'>Hm</say-as> ich glaube nicht",
+        "Soweit ich weiß ist das nicht korrekt",
+        "Nein, zumindest soweit ich.",
+        "Ich bin nur ein Roboter, aber ich glaube, dass trifft nicht zu"
+        ],
+    "correct": [
+        "Ja, ich denke schon",
+        "<say-as interpret-as='interjection'>Puh</say-as> lass mich überlegen. <amazon:emotion name='excited' intensity='low'> Ja </amazon:emotion> das ist korrekt",
+        "Das ist korrekt wenn ich das richtig gesehen habe",
+        "Also ich glaube das ist richtig",
+        "Ja richtig"
+        ],
+    "unsure":[
+        "Da bin ich mir nicht so sicher",
+        "Damit weiß ich nichts anzufangen",
+        "Dazu kann ich dir leider nichts sagen",
+        "Da muss ich leider passen",
+        "<say-as interpret-as='interjection'>Oh</say-as> damit kenn ich mich nicht aus"
+        ]
+}

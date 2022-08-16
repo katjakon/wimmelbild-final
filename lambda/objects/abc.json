@@ -1,0 +1,24 @@
+{
+
+    "color": [
+        "weiß",
+        "rot",
+        "grün", 
+        "grau"
+    ],
+
+    "shape": [
+        
+    ],
+
+    "location":[
+        "links", 
+        "unten",
+        "unten-links"
+    ],
+    "other_description": [
+        "schrift"
+    ]
+
+
+}

@@ -1,0 +1,21 @@
+{
+    "other_description": [
+        "Brauchst du mehr Informationen?",
+        "Soll ich dir mehr über das Objekt sagen?",
+        "Soll ich es etwas genauer beschreiben?"
+    ],
+    
+    "wrong_guess": [
+        "Nein, das ist leider inkorrekt.",
+        "Schade, das ist nicht mein gesuchtes Objekt.",
+        "Da irrst du dich leider.",
+        "Das ist falsch."
+    ],
+
+    "solution": [
+        "Soll ich dir mein Objekt verraten?",
+        "Gibst du auf?",
+        "Soll ich es dir verraten und dir ein anderes Objekt beschreiben?"
+    ]
+
+}

@@ -1,0 +1,1391 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "wimmelbild spielen",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "ich möchte aufhören",
+            "ich will nicht mehr spielen",
+            "ich will aufhören",
+            "ich möchte schlussmachen",
+            "zurück",
+            "ich will nicht mehr weiter machen",
+            "ich habe keine lust mehr"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "DescriptionIntent",
+          "slots": [
+            {
+              "name": "color",
+              "type": "AMAZON.Color"
+            },
+            {
+              "name": "shape",
+              "type": "shape"
+            },
+            {
+              "name": "location",
+              "type": "location"
+            },
+            {
+              "name": "other_description",
+              "type": "other"
+            }
+          ],
+          "samples": [
+            "An meinem Objekt gibt es {other_description}",
+            "Daran ist {other_description}",
+            "Daran ist {color}",
+            "Daran gibt es {color}",
+            "Daran sind {other_description}",
+            "Es hat auch {other_description}",
+            "Es ist auch {color}",
+            "An meinem Gegenstand ist  {other_description}",
+            "An meinem Gegenstand ist {color}",
+            "An meinem Objekt befindet sich {color}",
+            "An meinem Objekt befindet sich die Farbe {color}",
+            "An meinem Objekt befindet sich {other_description}",
+            "An meinem Objekt gibt es  {color}",
+            "An meinem Objekt ist {other_description}",
+            "An meinem Objekt ist {color}",
+            "An meinem Gegenstand gibt es {other_description}",
+            "mein objekt ist auch {color}",
+            "Mein Objekt hat {color}",
+            "An meinem Objekt ist die Farbe {color}",
+            "Das Objekt besteht aus {other_description}",
+            "Das Objekt kann {other_description}",
+            "Mein Objekt hat mit {other_description} zu tun",
+            "Es hat mit {other_description} zu tun",
+            "Es hat zu tun mit {other_description}",
+            "Es kann {other_description}",
+            "Es hat eine {other_description}",
+            "Es hat ein {other_description}",
+            "Es hat {other_description}",
+            "Mein Objekt besteht aus {other_description}",
+            "Mein Objekt kann {other_description}",
+            "Mein Objekt ist {other_description}",
+            "Mein Objekt hat {other_description}",
+            "Es sieht aus wie eine {shape}",
+            "Es sieht aus wie ein {shape}",
+            "Mein Objekt sieht aus wie ein {shape}",
+            "Es ist geformt wie eine {shape}",
+            "Das Objekt ist geformt wie eine {shape}",
+            "Es ist {shape} und {location}",
+            "Mein Objekt ist {shape} und {color}",
+            "Das Objekt ist {location} und {color}",
+            "Es ist am {location} Bildrand",
+            "Das Objekt befindet sich {location}",
+            "es befindet sich {location}",
+            "Mein Objekt ist {location}",
+            "Mein Objekt ist {location} {location}",
+            "Das Objekt is {shape} förmig",
+            "Es hat die Form {shape}",
+            "{shape}",
+            "{color}",
+            "Mein Objekt ist {shape}",
+            "Das Objekt hat die Farbe {color} und {color}",
+            "Der Gegenstand besitzt die Farbe {color}",
+            "Der Gegenstand ist {color}",
+            "Es hat die Farbe {color}",
+            "Es ist {color}",
+            "Mein Objekt is {color}"
+          ]
+        },
+        {
+          "name": "HiddenObjectIntent",
+          "slots": [],
+          "samples": [
+            "spiele beschreiben",
+            "ich wähle beschreiben",
+            "beschreiben spielen",
+            "ich beschreibe",
+            "ich will beschreiben",
+            "beschreiben",
+            "spiel spielen",
+            "spiel",
+            "fang das spiel an",
+            "ich möchte spielen",
+            "ich möchte das wimmelbildspiel spielen",
+            "lass uns spielen",
+            "wimmelbildspiel",
+            "das wimmelbild",
+            "zeig das wimmelbild",
+            "ich will das wimmelbildspiel spielen",
+            "starte das wimmelbildspiel",
+            "ich will das spiel spielen",
+            "starte das spiel"
+          ]
+        },
+        {
+          "name": "ExplanationIntent",
+          "slots": [],
+          "samples": [
+            "erklär mal das spiel",
+            "kannst du mir das spiel erklären",
+            "wei lautet die erklärung",
+            "wie geht das spiel",
+            "was muss ich tun",
+            "wie geht das",
+            "wie funktioniert das spiel",
+            "erklär das spiel",
+            "lass mich die erklärung hören",
+            "ich möchte die erklärung hören",
+            "erkläre",
+            "die erklärung",
+            "zeige die erklärung",
+            "erklärung",
+            "erklär mir das spiel"
+          ]
+        },
+        {
+          "name": "HomeScreenIntent",
+          "slots": [],
+          "samples": [
+            "menü",
+            "das menü",
+            "öffne nochmal das menü",
+            "öffne das menü",
+            "ich will nochmal das menü",
+            "ich will noch mal in das menü",
+            "bring mich in das menü",
+            "bring mich zurück in das menü",
+            "bring mich zurück ins menü",
+            "ich will nochmal das Menü sehen",
+            "wo ist das menü",
+            "kannst du nochmal das menü zeigen",
+            "ich will wieder in das menü",
+            "zeig mir das menü",
+            "ich hätte gerne ihre weinkarte",
+            "ich möchte das menü sehen",
+            "lass uns zum menü zuück",
+            "ich möchte wieder ins menü",
+            "ich möchte zum menü zurück"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "genau",
+            "richtig",
+            "Ja das ist mein Objekt",
+            "jo",
+            "Ja"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "Nein das ist nicht mein Objekt",
+            "Falsch",
+            "Nein"
+          ]
+        },
+        {
+          "name": "DontKnowIntent",
+          "slots": [],
+          "samples": [
+            "mir fällt nichts mehr ein",
+            "ich habe alles beschreiben",
+            "mehr informationen hab ich nicht",
+            "ich weiß nicht",
+            "das wars",
+            "keine ahnung",
+            "mehr weiß ich nicht",
+            "ich hab nicht mehr informationen"
+          ]
+        },
+        {
+          "name": "AgainIntent",
+          "slots": [],
+          "samples": [
+            "noch einmal",
+            "ich möchte von vorne beginnen",
+            "Von vorne",
+            "ich will ein weiteres Mal spielen",
+            "ich will noch eine runde spielen",
+            "noch eine runde",
+            "ich möchte nochmal spielen",
+            "Nochmal",
+            "Noch ein Spiel"
+          ]
+        },
+        {
+          "name": "StartOtherDirectionIntent",
+          "slots": [],
+          "samples": [
+            "wähle suchen",
+            "spiele suchen",
+            "ich möchte suchen spielen",
+            "suchen spielen",
+            "suchen",
+            "ich suche",
+            "beschreib mir ein Objekt",
+            "ich will suchen",
+            "Alexa soll beschreiben",
+            "Du sollst beschreiben"
+          ]
+        },
+        {
+          "name": "MoreIntent",
+          "slots": [],
+          "samples": [
+            "weiter",
+            "und weiter",
+            "erzähl mir mehr",
+            "beschreib es mir noch genauer",
+            "sag mir noch mehr",
+            "ich weiß es noch nicht",
+            "Ich brauche mehr Informationen",
+            "mehr"
+          ]
+        },
+        {
+          "name": "IsThatItIntent",
+          "slots": [
+            {
+              "name": "object",
+              "type": "hidden_object"
+            }
+          ],
+          "samples": [
+            "ist das objekt der {object}",
+            "ist das objekt die {object}",
+            "das {object}",
+            "der {object}",
+            "die {object}",
+            "{object}",
+            "könnte dein objekt {object} sein",
+            "besteht dein objekt aus {object}",
+            "hat dein objekt mit {object} zu tun",
+            "ist es {object}",
+            "meinst du {object}"
+          ]
+        },
+        {
+          "name": "ChooseWordIntent",
+          "slots": [
+            {
+              "name": "schoolsubj",
+              "type": "schoolsubj"
+            }
+          ],
+          "samples": [
+            "am coolsten war {schoolsubj}",
+            "am coolsten ist {schoolsubj}",
+            "am besten war {schoolsubj}",
+            "am besten ist {schoolsubj}",
+            "{schoolsubj} war am coolsten",
+            "{schoolsubj} ist am coolsten",
+            "{schoolsubj} war am besten",
+            "{schoolsubj} ist am besten",
+            "mein lieblingsschulfach ist {schoolsubj}",
+            "mein lieblingsschulfach war {schoolsubj}",
+            "ich habe {schoolsubj} am besten gefunden",
+            "ich fand {schoolsubj} am besten",
+            "ich finde {schoolsubj} am besten",
+            "mir hat {schoolsubj} am besten gefallen",
+            "mir gefiel {schoolsubj} am besten",
+            "mir gefällt {schoolsubj} am besten",
+            "mir gefiel am besten {schoolsubj}",
+            "mir gefällt am besten {schoolsubj}",
+            "Mir gefiel {schoolsubj}",
+            "Mir gefällt {schoolsubj}",
+            "{schoolsubj}",
+            "am liebsten {schoolsubj}",
+            "ich mochte am liebsten {schoolsubj}",
+            "ich mag am liebsten {schoolsubj}",
+            "ich mochte {schoolsubj}",
+            "ich mag {schoolsubj}",
+            "Mein Lieblingsfach ist {schoolsubj}",
+            "Mein Lieblingsfach war {schoolsubj}"
+          ]
+        },
+        {
+          "name": "ChooseObjectIntent",
+          "slots": [
+            {
+              "name": "choice",
+              "type": "HAA"
+            }
+          ],
+          "samples": [
+            "{choice} bitte",
+            "dann {choice}",
+            "also {choice}",
+            "Nehmen wir {choice}",
+            "nimm {choice}",
+            "{choice}",
+            "ich wähle {choice}",
+            "Ich nehme {choice}"
+          ]
+        },
+        {
+          "name": "QueryIntent",
+          "slots": [
+            {
+              "name": "shape",
+              "type": "shape"
+            },
+            {
+              "name": "location",
+              "type": "location"
+            },
+            {
+              "name": "color",
+              "type": "AMAZON.Color"
+            },
+            {
+              "name": "other_description",
+              "type": "other"
+            }
+          ],
+          "samples": [
+            "ist es ein {other_description}",
+            "ist mein objekt ein {other_description}",
+            "ist das objekt {other_description}",
+            "hat mein objekt die form {shape}",
+            "hat das objekt die farbe {color}",
+            "ist das objekt {color}",
+            "befindet sich das objekt {location}",
+            "ist das objekt {location}",
+            "hat es {shape}",
+            "ist dein objekt {shape}",
+            "ist es {shape}",
+            "ist dein objekt {location}",
+            "ist es {location}",
+            "ist es {color}",
+            "ist dein objekt {color}"
+          ]
+        },
+        {
+          "name": "DeadEndIntent",
+          "slots": [
+            {
+              "name": "color",
+              "type": "AMAZON.Color"
+            },
+            {
+              "name": "location",
+              "type": "location"
+            },
+            {
+              "name": "shape",
+              "type": "shape"
+            }
+          ],
+          "samples": [
+            "wie soll ich weiter machen",
+            "was jetzt",
+            "ist es {shape} oder {shape}",
+            "ist es {location} oder {location}",
+            "hat das objekt die form {shape} oder {shape}",
+            "befindet sich dein objekt {location} oder {location}",
+            "ist dein objekt {location} oder {location}",
+            "ist es {color} oder {color}",
+            "darf ich fragen welche Farbe es hat",
+            "darf ich fragen wo es sich befindet",
+            "kannst du mir sagen welche Form es hat",
+            "kannst du mir sagen wo sich das objekt befindet",
+            "kannst du mir die Farbe deines Objekts sagen",
+            "wo finde ich dein objekt",
+            "wo im bild finde ich es",
+            "wo liegt es im bild",
+            "welche farbe hat dein objekt",
+            "wo im bild liegt dein objekt",
+            "wo ist dein objekt",
+            "welche form hat es",
+            "wie ist dein objekt geformt",
+            "wie ist es geformt",
+            "was für eine farbe hat dein objekt",
+            "wo liegt dein objekt",
+            "welche farbe hat es"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "birne",
+              "name": {
+                "value": "birne",
+                "synonyms": [
+                  "birnenförmig"
+                ]
+              }
+            },
+            {
+              "id": "stachel",
+              "name": {
+                "value": "stachel",
+                "synonyms": [
+                  "piker",
+                  "stachelig"
+                ]
+              }
+            },
+            {
+              "id": "zylinder",
+              "name": {
+                "value": "zylinder",
+                "synonyms": [
+                  "zylinderförmig"
+                ]
+              }
+            },
+            {
+              "id": "lang",
+              "name": {
+                "value": "lang",
+                "synonyms": [
+                  "länglich"
+                ]
+              }
+            },
+            {
+              "id": "eckig",
+              "name": {
+                "value": "eckig",
+                "synonyms": [
+                  "rechteckig",
+                  "viereckig"
+                ]
+              }
+            },
+            {
+              "id": "rund",
+              "name": {
+                "value": "rund",
+                "synonyms": [
+                  "kugelförmig",
+                  "kreis",
+                  "kreisförmig"
+                ]
+              }
+            }
+          ],
+          "name": "shape"
+        },
+        {
+          "values": [
+            {
+              "id": "mitte-unten",
+              "name": {
+                "value": "mitte unten",
+                "synonyms": [
+                  "mittig unten",
+                  "unten mittig",
+                  "unten mitte"
+                ]
+              }
+            },
+            {
+              "id": "mitte-oben",
+              "name": {
+                "value": "mitte oben",
+                "synonyms": [
+                  "oben mitte",
+                  "oben mittig"
+                ]
+              }
+            },
+            {
+              "id": "mitte-rechts",
+              "name": {
+                "value": "mitte rechts",
+                "synonyms": [
+                  "mittig rechts",
+                  "rechts mitte"
+                ]
+              }
+            },
+            {
+              "id": "unten-links",
+              "name": {
+                "value": "unten links",
+                "synonyms": [
+                  "links unten"
+                ]
+              }
+            },
+            {
+              "id": "unten-rechts",
+              "name": {
+                "value": "unten rechts",
+                "synonyms": [
+                  "rechts unten"
+                ]
+              }
+            },
+            {
+              "id": "oben-rechts",
+              "name": {
+                "value": "oben rechts",
+                "synonyms": [
+                  "rechts oben"
+                ]
+              }
+            },
+            {
+              "id": "oben-links",
+              "name": {
+                "value": "oben links",
+                "synonyms": [
+                  "links oben"
+                ]
+              }
+            },
+            {
+              "id": "links",
+              "name": {
+                "value": "links",
+                "synonyms": [
+                  "linken",
+                  "linke"
+                ]
+              }
+            },
+            {
+              "id": "rechts",
+              "name": {
+                "value": "rechts",
+                "synonyms": [
+                  "rechten",
+                  "rechte"
+                ]
+              }
+            },
+            {
+              "id": "mitte",
+              "name": {
+                "value": "mitte",
+                "synonyms": [
+                  "zentrum",
+                  "mittig"
+                ]
+              }
+            },
+            {
+              "id": "unten",
+              "name": {
+                "value": "unten",
+                "synonyms": [
+                  "unteren",
+                  "untrig"
+                ]
+              }
+            },
+            {
+              "id": "oben",
+              "name": {
+                "value": "oben",
+                "synonyms": [
+                  "oberen",
+                  "obrig"
+                ]
+              }
+            }
+          ],
+          "name": "location"
+        },
+        {
+          "values": [
+            {
+              "id": "tier",
+              "name": {
+                "value": "tier",
+                "synonyms": [
+                  "lebewesen",
+                  "vieh"
+                ]
+              }
+            },
+            {
+              "id": "blatt",
+              "name": {
+                "value": "blatt",
+                "synonyms": [
+                  "grünzeug",
+                  "blätter",
+                  "blüte",
+                  "pflanze",
+                  "zimmerpflanze"
+                ]
+              }
+            },
+            {
+              "id": "topf",
+              "name": {
+                "value": "topf",
+                "synonyms": [
+                  "behälter",
+                  "blumentopf"
+                ]
+              }
+            },
+            {
+              "id": "krankheit",
+              "name": {
+                "value": "krankheit",
+                "synonyms": [
+                  "pandemie",
+                  "seuche",
+                  "corona",
+                  "virus",
+                  "krank"
+                ]
+              }
+            },
+            {
+              "id": "fernrohr",
+              "name": {
+                "value": "fernrohr",
+                "synonyms": [
+                  "sterne",
+                  "beobachten",
+                  "schauen",
+                  "teleskop"
+                ]
+              }
+            },
+            {
+              "id": "schule",
+              "name": {
+                "value": "schule",
+                "synonyms": [
+                  "tafel",
+                  "lehrer",
+                  "klassenzimmer"
+                ]
+              }
+            },
+            {
+              "id": "weltall",
+              "name": {
+                "value": "weltall",
+                "synonyms": [
+                  "universum",
+                  "all",
+                  "planet",
+                  "weltraum"
+                ]
+              }
+            },
+            {
+              "id": "computer",
+              "name": {
+                "value": "computer",
+                "synonyms": [
+                  "ordner",
+                  "bildschirm",
+                  "rechner"
+                ]
+              }
+            },
+            {
+              "id": "erde",
+              "name": {
+                "value": "erde",
+                "synonyms": [
+                  "ozean",
+                  "meer",
+                  "ozeane",
+                  "kontinente",
+                  "länder",
+                  "erdkugel",
+                  "globus"
+                ]
+              }
+            },
+            {
+              "id": "klima",
+              "name": {
+                "value": "klima",
+                "synonyms": [
+                  "fridays for future",
+                  "protest",
+                  "klimaschutz"
+                ]
+              }
+            },
+            {
+              "id": "sterne",
+              "name": {
+                "value": "sterne",
+                "synonyms": [
+                  "stern"
+                ]
+              }
+            },
+            {
+              "id": "flagge",
+              "name": {
+                "value": "flagge",
+                "synonyms": [
+                  "symbol",
+                  "banner",
+                  "fahne"
+                ]
+              }
+            },
+            {
+              "id": "hut",
+              "name": {
+                "value": "hut",
+                "synonyms": [
+                  "doktor",
+                  "kopfbedeckung",
+                  "kappe"
+                ]
+              }
+            },
+            {
+              "id": "mensch",
+              "name": {
+                "value": "mensch",
+                "synonyms": [
+                  "person",
+                  "menschlich"
+                ]
+              }
+            },
+            {
+              "id": "antik",
+              "name": {
+                "value": "antik",
+                "synonyms": [
+                  "korinthisch",
+                  "dorisch",
+                  "marmor",
+                  "ionisch",
+                  "alt",
+                  "griechisch"
+                ]
+              }
+            },
+            {
+              "id": "chemie",
+              "name": {
+                "value": "chemie",
+                "synonyms": [
+                  "Dubnium",
+                  "argon",
+                  "chemisch",
+                  "elemente"
+                ]
+              }
+            },
+            {
+              "id": "roboter",
+              "name": {
+                "value": "roboter"
+              }
+            },
+            {
+              "id": "schwimmen",
+              "name": {
+                "value": "schwimmen",
+                "synonyms": [
+                  "meer",
+                  "ozean",
+                  "see",
+                  "wasser"
+                ]
+              }
+            },
+            {
+              "id": "strom",
+              "name": {
+                "value": "strom",
+                "synonyms": [
+                  "elektrisch",
+                  "elektrizität",
+                  "licht"
+                ]
+              }
+            },
+            {
+              "id": "zahlen",
+              "name": {
+                "value": "zahlen",
+                "synonyms": [
+                  "achsen",
+                  "funktion",
+                  "formel",
+                  "graf",
+                  "graph",
+                  "nummer",
+                  "zahl",
+                  "ziffern",
+                  "nummern"
+                ]
+              }
+            },
+            {
+              "id": "stechen",
+              "name": {
+                "value": "stechen",
+                "synonyms": [
+                  "stachel"
+                ]
+              }
+            },
+            {
+              "id": "fliegen",
+              "name": {
+                "value": "fliegen",
+                "synonyms": [
+                  "schweben",
+                  "flügel"
+                ]
+              }
+            },
+            {
+              "id": "schrift",
+              "name": {
+                "value": "schrift",
+                "synonyms": [
+                  "zeichen",
+                  "schreiben",
+                  "buchstaben"
+                ]
+              }
+            }
+          ],
+          "name": "other"
+        },
+        {
+          "values": [
+            {
+              "id": "zimmerpflanze.json",
+              "name": {
+                "value": "zimmerpflanze",
+                "synonyms": [
+                  "zierpflanze",
+                  "topf",
+                  "blumentopf",
+                  "pflanze",
+                  "topfpflanze"
+                ]
+              }
+            },
+            {
+              "id": "virus.json",
+              "name": {
+                "value": "virus",
+                "synonyms": [
+                  "bakterie"
+                ]
+              }
+            },
+            {
+              "id": "telescope.json",
+              "name": {
+                "value": "teleskop",
+                "synonyms": [
+                  "fernglas",
+                  "fernrohr"
+                ]
+              }
+            },
+            {
+              "id": "tafel.json",
+              "name": {
+                "value": "tafel",
+                "synonyms": [
+                  "lehrer",
+                  "schule"
+                ]
+              }
+            },
+            {
+              "id": "ordner.json",
+              "name": {
+                "value": "ordner",
+                "synonyms": [
+                  "directory",
+                  "verzeichnisse",
+                  "verzeichnis",
+                  "computer"
+                ]
+              }
+            },
+            {
+              "id": "mathe.json",
+              "name": {
+                "value": "formeln",
+                "synonyms": [
+                  "gleichungen",
+                  "graphen",
+                  "Summenzeichen",
+                  "mathematischen zeichen"
+                ]
+              }
+            },
+            {
+              "id": "helloworld.json",
+              "name": {
+                "value": "bildschirm",
+                "synonyms": [
+                  "hello world",
+                  "bildschirm mit hello world",
+                  "text"
+                ]
+              }
+            },
+            {
+              "id": "globe.json",
+              "name": {
+                "value": "globus",
+                "synonyms": [
+                  "welt",
+                  "erde"
+                ]
+              }
+            },
+            {
+              "id": "fff.json",
+              "name": {
+                "value": "klima",
+                "synonyms": [
+                  "klimaaktivisten",
+                  "klimastreik",
+                  "fridays for future",
+                  "flagge"
+                ]
+              }
+            },
+            {
+              "id": "europa.json",
+              "name": {
+                "value": "europa",
+                "synonyms": [
+                  "europaflagge"
+                ]
+              }
+            },
+            {
+              "id": "doktor.json",
+              "name": {
+                "value": "doktor",
+                "synonyms": [
+                  "doktorand",
+                  "phd"
+                ]
+              }
+            },
+            {
+              "id": "column.json",
+              "name": {
+                "value": "Säule",
+                "synonyms": [
+                  "griechische Säulen",
+                  "säulen"
+                ]
+              }
+            },
+            {
+              "id": "chemie.json",
+              "name": {
+                "value": "elemente",
+                "synonyms": [
+                  "chemische elemente"
+                ]
+              }
+            },
+            {
+              "id": "boot.json",
+              "name": {
+                "value": "boot"
+              }
+            },
+            {
+              "id": "birne.json",
+              "name": {
+                "value": "birne",
+                "synonyms": [
+                  "leuchten",
+                  "glühbirne"
+                ]
+              }
+            },
+            {
+              "id": "binary.json",
+              "name": {
+                "value": "binärcode",
+                "synonyms": [
+                  "binärzahlen",
+                  "binär",
+                  "zahlen"
+                ]
+              }
+            },
+            {
+              "id": "biene.json",
+              "name": {
+                "value": "biene",
+                "synonyms": [
+                  "insekt",
+                  "wespe"
+                ]
+              }
+            },
+            {
+              "id": "balloon.json",
+              "name": {
+                "value": "ballon",
+                "synonyms": [
+                  "luftballon"
+                ]
+              }
+            },
+            {
+              "id": "abc.json",
+              "name": {
+                "value": "abc",
+                "synonyms": [
+                  "buchstaben",
+                  "alphabet"
+                ]
+              }
+            },
+            {
+              "id": "planet.json",
+              "name": {
+                "value": "planet",
+                "synonyms": [
+                  "saturn"
+                ]
+              }
+            }
+          ],
+          "name": "hidden_object"
+        },
+        {
+          "values": [
+            {
+              "id": "geschichte",
+              "name": {
+                "value": "geschichte",
+                "synonyms": [
+                  "staatsbürgerkunde",
+                  "heimatwissenschaft",
+                  "heimatkunde",
+                  "vergangenheit",
+                  "geschichtswissenschaft",
+                  "historik"
+                ]
+              }
+            },
+            {
+              "id": "kunst",
+              "name": {
+                "value": "kunst",
+                "synonyms": [
+                  "schauspielen",
+                  "werken",
+                  "filmprojekt",
+                  "töpfern",
+                  "darstellendes",
+                  "kunstunterricht",
+                  "kunsterziehung",
+                  "musiktheorie",
+                  "orchester",
+                  "klavier",
+                  "musik",
+                  "kunstwissenschaft",
+                  "kunstgeschichte",
+                  "filmkunde",
+                  "ballett",
+                  "ausdruckstanz",
+                  "theater",
+                  "skulptur",
+                  "plastik",
+                  "malerei",
+                  "architektur",
+                  "gestaltung",
+                  "gestalten",
+                  "zeichnen",
+                  "malen",
+                  "animationsfilm",
+                  "film"
+                ]
+              }
+            },
+            {
+              "id": "sachkunde",
+              "name": {
+                "value": "sachkunde",
+                "synonyms": [
+                  "medien",
+                  "medienkunde",
+                  "pädagogik",
+                  "berufsorientierung",
+                  "lebensweg",
+                  "berufswahl",
+                  "berufsweg"
+                ]
+              }
+            },
+            {
+              "id": "religion",
+              "name": {
+                "value": "religion",
+                "synonyms": [
+                  "gemeinschaftskunde",
+                  "philosophie",
+                  "philo",
+                  "glauben",
+                  "glaubenslehre",
+                  "religionslehre",
+                  "begegnung",
+                  "christentum",
+                  "lebensgestaltung",
+                  "katholiscch",
+                  "katholische",
+                  "evangelisch",
+                  "evangelische",
+                  "ethik"
+                ]
+              }
+            },
+            {
+              "id": "sprache",
+              "name": {
+                "value": "sprache",
+                "synonyms": [
+                  "fremdsprachunterricht",
+                  "fremdsprachen",
+                  "fremdsprache",
+                  "sprachunterricht",
+                  "sprachen",
+                  "indoeuropäisch",
+                  "albanisch",
+                  "ukrainisch",
+                  "mandarin",
+                  "bengalisch",
+                  "hindi",
+                  "arabisch",
+                  "türkisch",
+                  "baskisch",
+                  "aramäisch",
+                  "tschechisch",
+                  "niederländisch",
+                  "holländisch",
+                  "portugiesisch",
+                  "isländisch",
+                  "italienisch",
+                  "rumänisch",
+                  "bulgarisch",
+                  "finnisch",
+                  "hebräisch",
+                  "schwedisch",
+                  "norwegisch",
+                  "dänisch",
+                  "swahili",
+                  "suaheli",
+                  "japanisch",
+                  "koreanisch",
+                  "chinesisch",
+                  "latein",
+                  "neugriechisch",
+                  "altgriechisch",
+                  "griechisch",
+                  "spanisch",
+                  "russisch",
+                  "französisch"
+                ]
+              }
+            },
+            {
+              "id": "technik",
+              "name": {
+                "value": "technik",
+                "synonyms": [
+                  "konstruktion",
+                  "bau"
+                ]
+              }
+            },
+            {
+              "id": "sport",
+              "name": {
+                "value": "sport",
+                "synonyms": [
+                  "erziehungswissenschaft",
+                  "medizin",
+                  "psychologie",
+                  "schwimmen",
+                  "gymnastik",
+                  "federball",
+                  "sportunterricht",
+                  "rudern",
+                  "langlauf",
+                  "ballsport",
+                  "sporttheorie",
+                  "gesundheitskunde",
+                  "gesundheit",
+                  "fitness",
+                  "karate",
+                  "judo",
+                  "basketball",
+                  "jazzdance",
+                  "tanzen",
+                  "teamsport",
+                  "mannschaftssport",
+                  "turnen",
+                  "hochsprung",
+                  "leichtathletik",
+                  "handball",
+                  "tischtennis",
+                  "tennis",
+                  "volleyball",
+                  "hockey",
+                  "fußball",
+                  "bewegung"
+                ]
+              }
+            },
+            {
+              "id": "politik",
+              "name": {
+                "value": "politik",
+                "synonyms": [
+                  "gesellschaftslehre",
+                  "sozialwissenschaft",
+                  "politikkunde",
+                  "rechtskunde",
+                  "recht",
+                  "wirtschaftskunde",
+                  "wipo",
+                  "gesellschaftskunde",
+                  "gesellschaft",
+                  "sozialkunde",
+                  "sozi",
+                  "wirtschaft",
+                  "politikwissenschaft",
+                  "powi"
+                ]
+              }
+            },
+            {
+              "id": "biologie",
+              "name": {
+                "value": "biologie",
+                "synonyms": [
+                  "chemie",
+                  "nawi",
+                  "natur",
+                  "naturkunde",
+                  "bio"
+                ]
+              }
+            },
+            {
+              "id": "astronomie",
+              "name": {
+                "value": "astronomie",
+                "synonyms": [
+                  "physik",
+                  "forschung",
+                  "sternenkunde",
+                  "astro"
+                ]
+              }
+            },
+            {
+              "id": "geographie",
+              "name": {
+                "value": "geographie",
+                "synonyms": [
+                  "erdkunde",
+                  "geologie",
+                  "geo"
+                ]
+              }
+            },
+            {
+              "id": "englisch",
+              "name": {
+                "value": "englisch",
+                "synonyms": [
+                  "cambridge"
+                ]
+              }
+            },
+            {
+              "id": "deutsch",
+              "name": {
+                "value": "deutsch",
+                "synonyms": [
+                  "literaturwissenschaft",
+                  "literatur",
+                  "rhetorik",
+                  "poesie",
+                  "drama",
+                  "schreibwerkstatt",
+                  "schreiben",
+                  "lesen"
+                ]
+              }
+            },
+            {
+              "id": "mathematik",
+              "name": {
+                "value": "mathematik",
+                "synonyms": [
+                  "textverarbeitung",
+                  "computerwissenschaft",
+                  "computer",
+                  "info",
+                  "informatik",
+                  "schach",
+                  "zahlen",
+                  "rechnen",
+                  "mathe"
+                ]
+              }
+            }
+          ],
+          "name": "schoolsubj"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Auswirkung"
+              }
+            },
+            {
+              "name": {
+                "value": "Anwendung"
+              }
+            },
+            {
+              "name": {
+                "value": "Hintergrund"
+              }
+            }
+          ],
+          "name": "HAA"
+        }
+      ]
+    }
+  },
+  "version": "85"
+}

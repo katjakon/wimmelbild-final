@@ -1,0 +1,22 @@
+{
+
+    "color": [
+        "schwarz",
+        "grün"
+    ],
+
+    "shape": [
+        "eckig"
+        
+    ],
+
+    "location":[
+        "mitte"
+    ], 
+    "other_description": [
+        "computer",
+        "schrift"
+    ]
+
+
+}

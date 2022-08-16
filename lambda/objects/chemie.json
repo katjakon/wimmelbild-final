@@ -1,0 +1,24 @@
+{
+
+    "color": [
+        "weiß",
+        "schwarz"
+    ],
+
+    "shape": [
+        "eckig"
+        
+    ],
+
+    "location":[
+        "oben", 
+        "rechts",
+        "oben-rechts"
+    ],
+    "other_description": [
+        "schrift", 
+        "chemie"
+    ]
+
+
+}

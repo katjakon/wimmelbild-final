@@ -1,0 +1,55 @@
+{
+    "imageListData": {
+        "type": "object",
+        "objectId": "imageListSample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://www.bildung-forschung.digital/digitalezukunft/de/bildung/mint-allianz/was-wimmelt-in-mint/_functions/wimmelbild_png.png?__blob=normal&amp;v=2&amp;.png",
+                    "size": "large"
+                }
+            ]
+        },
+        "title": "Lustiges Wimmelbild-Spiel",
+        "listItems": [
+            {
+                "primaryText": "Anleitung",
+                "imageSource": "https://cdn.pixabay.com/photo/2014/05/25/22/31/icon-354008_960_720.png",
+                "primaryAction": {
+                    "type": "SendEvent",
+                    "arguments": [
+                        "explanation",
+                        "Du hast die Anleitung ausgewählt."
+                    ]
+                }
+            },
+            {
+                "primaryText": "Beschreiben",
+                "imageSource": "https://cdn.pixabay.com/photo/2017/06/05/16/24/megaphone-2374502_960_720.png",
+                "primaryAction": {
+                    "type": "SendEvent",
+                    "arguments": [
+                        "game",
+                        "Du hast das Spiel ausgewählt."
+                    ]
+                }
+            },
+            {
+                "primaryText": "Suchen",
+                "imageSource": "https://cdn.pixabay.com/photo/2015/05/15/13/16/search-768328_960_720.png",
+                "primaryAction": {
+                    "type": "SendEvent",
+                    "arguments": [
+                        "game2",
+                        "Du hast das Spiel ausgewählt."
+                    ]
+                }
+            }
+        ],
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/templates_v3/logo/logo-modern-botanical-white.png",
+        "hintText": "Versuche es mit \"Alexa, erkläre mir das Spiel\""
+    }
+}

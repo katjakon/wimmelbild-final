@@ -1,0 +1,23 @@
+{
+
+    "color": [
+        "grün",
+        "weiß"
+    ],
+
+    "shape": [
+        "eckig"
+    ],
+
+    "location": [
+        "oben",
+        "links",
+        "oben-links"
+    ],
+    "other_description": [
+        "flagge",
+        "klima"
+    ]
+
+
+}

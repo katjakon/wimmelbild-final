@@ -1,0 +1,22 @@
+{
+
+    "color": [
+        "gelb"
+    ],
+
+    "shape": [
+        "rund"
+    ],
+
+    "location":
+    [
+        "links", 
+        "oben", 
+        "oben-links"
+    ],
+    "other_description": [
+        "weltall"
+    ]
+
+
+}

@@ -1,0 +1,82 @@
+{
+    "abc.json": {
+       "name": "das ABC",
+       "txt_file": "texts/linguistik.txt"
+    },
+    "balloon.json": {
+        "name": "der Ballon",
+        "txt_file": "texts/luftfahrt.txt"
+    },
+    "biene.json": {
+        "name": "die Biene",
+        "txt_file": "texts/bio.txt"
+    }, 
+    "binary.json": {
+        "name": "der Binärcode",
+        "txt_file": "texts/info.txt"
+    }, 
+    "birne.json": {
+        "name": "die Glühbirne",
+        "txt_file": "texts/et.txt"
+    },  
+    "boot.json": {
+        "name": "das Boot",
+        "txt_file": "texts/logistik.txt"
+    }, 
+    "chemie.json": {
+        "name": "die chemischen Elemente",
+        "txt_file": "texts/chemie.txt"
+    }, 
+    "column.json": {
+        "name": "die Säule",
+        "txt_file": "texts/geschichte.txt"
+    }, 
+    "doktor.json": {
+        "name": "der Doktor"
+    }, 
+    "europa.json": {
+        "name": "die Europa-Flagge",
+        "txt_file": "texts/politik.txt"
+    }, 
+    "fff.json": {
+        "name": "die 'Fridays for Future'-Flagge",
+        "txt_file": "texts/fff.txt"
+    }, 
+    "globe.json": {
+        "name": "der Globus",
+        "txt_file": "texts/geo.txt"
+    }, 
+    "helloworld.json": {
+        "name": "der Bildschirm mit Hello World",
+        "txt_file": "texts/cl.txt"
+    }, 
+    "mathe.json": {
+        "name": "die mathematischen Zeichen",
+        "txt_file": "texts/mathe.txt"
+    }, 
+    "ordner.json": {
+        "name": "der Bildschirm mit den Ordnern",
+        "txt_file": "texts/verwaltung.txt"
+    },
+    "planet.json": {
+        "name": "der Planet",
+        "txt_file": "texts/astro.txt"
+    },
+    "tafel.json": {
+        "name": "die Tafel",
+        "txt_file": "texts/lehramt.txt"
+    },
+    "telescope.json": {
+        "name": "das Teleskop",
+        "subject": "physik",
+        "txt_file": "texts/physik.txt"
+    },
+    "virus.json": {
+        "name": "der Virus",
+        "txt_file": "texts/medi.txt"
+    },
+    "zimmerpflanze.json": {
+        "name": "die Zimmerpflanze",
+        "txt_file": "texts/gartenbau.txt"
+    }
+}

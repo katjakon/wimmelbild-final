@@ -1,0 +1,23 @@
+{
+
+    "color": [
+        "blau",
+        "gelb"
+    ],
+
+    "shape": [
+        "eckig"
+        
+    ],
+
+    "location":[
+        "rechts", 
+        "unten",
+        "unten-rechts"
+    ], 
+    "other_description": [
+        "computer"
+    ]
+
+
+}

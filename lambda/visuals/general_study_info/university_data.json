@@ -1,0 +1,29 @@
+{
+    "imageListData": {
+        "type": "object",
+        "objectId": "paginatedListSample",
+        "title": "zurück zur Übersicht",
+        "listItems": [
+            {
+                "primaryText": "Bachelor",
+                "secondaryText": "Level 1",
+                "imageSource": "https://i.kym-cdn.com/photos/images/newsfeed/001/232/375/3fb.jpg"
+            },
+            {
+                "primaryText": "Master",
+                "secondaryText": "Level 2",
+                "imageSource": "https://cbsnews1.cbsistatic.com/hub/i/2011/07/25/22187f7a-a645-11e2-a3f0-029118418759/human_brain_iStock_000011222766Small.jpg"
+            },
+            {
+                "primaryText": "Dissertation",
+                "secondaryText": "Level 3",
+                "imageSource": "https://gumc.georgetown.edu/wp-content/uploads/2019/01/nicotine-trial-photo1.jpg"
+            },
+            {
+                "primaryText": "Habilitation",
+                "secondaryText": "Level 4",
+                "imageSource": "https://pbs.twimg.com/media/EJqm73ZW4AIvizo.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+Das Informatik Bachelor Studium beendest Du nach 6 bis 8 Semestern mit dem 
+Bachelor of Science (B.Sc.). Zu Beginn eignest Du Dir die Grundlagen der Informatik an, 
+die Du dann im weiteren Studienverlauf vertiefst. 
+Grundsätzlich beinhaltet aber jeder Bachelor Studiengang zunächst folgende Grundlagenfächer:<br><br>
+
+- Mathematik<br>
+- Algorithmik<br>
+- Datenbanken<br>
+- Softwaretechnik<br>
+- Kommunikationstechnik<br>
+- Programmierung<br>
+- Betriebswirtschaftslehre<br>
+- Betriebssysteme und Rechnerarchitektur<br><br>
+
+Ab dem 4. Fachsemester kannst Du meist 
+eigene Schwerpunkte wählen, zum Beispiel im Bereich Machinelles Lernen oder in 
+der Cybersecurity. 
+Im 5. Fachsemester hast Du meist die Möglichkeit, ein ganzes Praxissemester 
+einzulegen. So kannst Du bereits während Deiner Studienzeit erste praktische 
+Erfahrungen sammeln und Kontakte zu potenziellen späteren Arbeitgebern knüpfen.

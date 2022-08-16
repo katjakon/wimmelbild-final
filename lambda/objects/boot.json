@@ -1,0 +1,23 @@
+{
+
+    "color": [
+        "grün"
+    ],
+
+    "shape": [
+        "eckig",
+        "lang"
+    ],
+
+    "location":[
+        "unten", 
+        "rechts",
+        "unten-rechts"
+    ],
+    "other_description": [
+        "schwimmen",
+        "roboter"
+    ]
+
+
+}

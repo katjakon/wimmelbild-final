@@ -1,0 +1,24 @@
+{
+
+    "color": [
+        "grün",
+        "weiß"
+    ],
+
+    "shape": [
+        "eckig"
+        
+    ],
+
+    "location":[
+        "links", 
+        "unten",
+        "unten-links"
+    ],
+    "other_description": [
+        "schrift", 
+        "schule"
+    ]
+
+
+}

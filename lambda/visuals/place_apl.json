@@ -1,0 +1,58 @@
+{
+    "type": "APL",
+    "version": "1.6",
+    "license": "Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.\nSPDX-License-Identifier: LicenseRef-.amazon.com.-AmznSL-1.0\nLicensed under the Amazon Software License  http://aws.amazon.com/asl/",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.5.0"
+        }
+    ],
+    "mainTemplate": {
+        "parameters": [
+            "cityImages",
+            "general",
+            "cities"
+        ],
+        "bind": [
+            {
+                "name": "city",
+                "value": "${cities.choice}"
+            }
+        ],
+        "item": [
+            {
+                "type": "Container",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "AlexaHeader",
+                        "headerAttributionText": "${city}",
+                        "headerBackgroundColor": "#4E4E4E",
+                        "headerSubtitle": "zurück",
+                        "headerBackButton": true,
+                        "headerBackButtonCommand": {
+                            "type": "SendEvent",
+                            "arguments": [
+                                "backToInfo"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Container",
+                        "height": "90vh",
+                        "items": [
+                            {
+                                "type": "AlexaBackground",
+                                "backgroundImageSource": "${cityImages[city]}",
+                                "backgroundScale": "fill",
+                                "backgroundBlur": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

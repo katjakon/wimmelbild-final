@@ -1,0 +1,24 @@
+{
+
+    "color": [
+        "weiß"
+    ],
+
+    "shape": [
+        "eckig", 
+        "lang"
+
+        
+    ],
+
+    "location":[
+        "links", 
+        "oben",
+        "oben-links"
+    ],
+    "other_description": [
+        "antik"
+    ]
+
+
+}

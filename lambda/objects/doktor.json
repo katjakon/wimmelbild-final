@@ -1,0 +1,21 @@
+{
+
+    "color": [
+        "schwarz",
+        "rosa"
+    ],
+
+    "shape": [
+        
+    ],
+
+    "location":[
+        "mitte", 
+        "unten",
+        "mitte-unten"
+    ], 
+    "other_description": [
+        "mensch", 
+        "hut"
+    ]
+}

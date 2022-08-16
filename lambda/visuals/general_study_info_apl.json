@@ -1,0 +1,100 @@
+{
+    "type": "APL",
+    "version": "1.8",
+    "license": "Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.\nSPDX-License-Identifier: LicenseRef-.amazon.com.-AmznSL-1.0\nLicensed under the Amazon Software License  http://aws.amazon.com/asl/",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.5.0"
+        }
+    ],
+    "mainTemplate": {
+        "parameters": [
+            "gridListData",
+            "timerData",
+            "wimmelbild"
+        ],
+    "items": [
+      {
+        "type": "Container",
+        "bind": [
+          {
+            "name": "remainingTimerDuration",
+            "value": "${Time.seconds(timerData.timerDuration)}"
+          },
+          {
+            "name": "containerDisabled",
+            "value": "${remainingTimerDuration > 0 ? true : false}"
+          },
+          {
+            "name": "containerDisplayed",
+            "value": "${remainingTimerDuration > 0 ? 'invisible': 'normal'}"
+          },
+          {
+            "name": "element",
+            "value": "doktor.json"
+          },
+          {
+            "name": "currentImage",
+            "value": "${wimmelbild.images[element]}"
+          }
+        ],
+        "handleTick": [
+          {
+            "type": "Sequential",
+            "when": "${remainingTimerDuration > 0}",
+            "minimumDelay": 1000,
+            "commands": [
+              {
+                "type": "SetValue",
+                "property": "remainingTimerDuration",
+                "value": "${remainingTimerDuration - 1}"
+              }
+            ]
+          }
+        ],
+        "items": [
+            {
+            "type": "AlexaBackground",
+            "backgroundAlign": "center",
+            "backgroundImageSource": "${currentImage}",
+            "backgroundScale": "best-fit",
+            "backgroundBlur": false,
+            "headerBackButton": false
+          },
+          {
+            "type": "Container",
+            "width": "100%",
+            "height": "100%",
+            "alignItems": "center",
+            "disabled": "${containerDisabled}",
+            "display": "${containerDisplayed}",
+            "justifyContent": "center",
+            "items": [
+            {
+                "type": "AlexaGridList",
+                "id": "plantList",
+                "headerTitle": "${gridListData.title}",
+                "headerBackButton": true,
+                "backgroundImageSource": "${gridListData.backgroundImage.sources[0].url}",
+                "backgroundBlur": true,
+                "headerBackButtonCommand": {
+                    "type": "SendEvent",
+                    "arguments": [
+                        "goBack"
+                    ]
+                },
+                "backgroundOverlayGradient": true,
+                "backgroundColorOverlay": true,
+                "imageAspectRatio": "standard_landscape",
+                "imageScale": "best-fill",
+                "listItems": "${gridListData.listItems}"
+            }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "longTextTemplateData": {
+        "type": "object",
+        "objectId": "longTextSample",
+        "properties": {
+            "backgroundImage": {
+                "contentDescription": null,
+                "smallSourceUrl": null,
+                "largeSourceUrl": null,
+                "sources": [
+                    {
+                        "url": "https://der-potsdamer.de/wp-content/uploads/2019/11/potsdamer-magazin-der-havelregion-18-dezember-2019-GoldenGraphix-UniGolm1.jpg",
+                        "size": "SMALL",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    },
+                    {
+                        "url": "https://der-potsdamer.de/wp-content/uploads/2019/11/potsdamer-magazin-der-havelregion-18-dezember-2019-GoldenGraphix-UniGolm1.jpg",
+                        "size": "MEDIUM",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    },
+                    {
+                        "url": "https://der-potsdamer.de/wp-content/uploads/2019/11/potsdamer-magazin-der-havelregion-18-dezember-2019-GoldenGraphix-UniGolm1.jpg",
+                        "size": "LARGE",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    }
+                ]
+            }
+        }
+    },
+    "subjects": {
+        "text": "Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau. Hier steht dann der Aufbau."
+    }
+}

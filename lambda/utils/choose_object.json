@@ -1,0 +1,72 @@
+{
+    "geschichte": [
+        "column.json",
+        "europa.json",
+        "fff.json"
+    ],
+    "kunst": [
+        "binary.json",
+        "zimmerpflanze.json",
+        "abc.json"
+    ],
+    "sachkunde": [
+        "globe.json",
+        "virus.json",
+        "fff.json"
+    ],
+    "religion": [
+        "telescope.json",
+        "chemie.json",
+        "biene.json"
+    ],
+    "sprache": [
+        "abc.json",
+        "helloworld.json",
+        "column.json"
+    ],
+    "technik": [
+        "mathe.json",
+        "balloon.json",
+        "planet.json"
+    ],
+    "sport": [
+        "biene.json",
+        "globe.json",
+        "tafel.json"
+    ],
+    "politik": [
+        "fff.json",
+        "boot.json",
+        "europa.json"
+    ],
+    "biologie": [
+        "biene.json",
+        "chemie.json",
+        "virus.json"
+    ],
+    "astronomie": [
+        "planet.json",
+        "balloon.json",
+        "telescope.json"
+    ],
+    "geographie": [
+        "globe.json",
+        "zimmerpflanze.json",
+        "boot.json"
+    ],
+    "englisch": [
+        "ordner.json",
+        "boot.json",
+        "tafel.json"
+    ],
+    "deutsch": [
+        "column.json",
+        "tafel.json",
+        "ordner.json"
+    ],
+    "mathematik": [
+        "mathe.json",
+        "helloworld.json",
+        "binary.json"
+    ]
+}

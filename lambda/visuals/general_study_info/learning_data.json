@@ -1,0 +1,34 @@
+{
+    "imageListData": {
+        "type": "object",
+        "objectId": "paginatedListSample",
+        "title": "zurück zur Übersicht",
+        "listItems": [
+            {
+                "primaryText": "Bibliothek",
+                "secondaryText": "produktive Stille",
+                "imageSource": "https://www.w33-berlin.de/wp-content/uploads/2018/12/w33-projekt-ikmz-treppenhaus.jpg"
+            },
+            {
+                "primaryText": "Lerngruppe",
+                "secondaryText": "voneinander profitieren",
+                "imageSource": "https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "Lernzettel",
+                "secondaryText": "überm Bett",
+                "imageSource": "https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "Tutorium",
+                "secondaryText": "immer brav hingehen",
+                "imageSource": "https://images.pexels.com/photos/6238038/pexels-photo-6238038.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            },
+            {
+                "primaryText": "YouTube",
+                "secondaryText": "...",
+                "imageSource": "https://images.pexels.com/photos/5708719/pexels-photo-5708719.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            }
+        ]
+    }
+}

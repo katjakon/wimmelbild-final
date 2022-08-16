@@ -1,0 +1,22 @@
+{
+
+    "color": [
+        "schwarz"
+    ],
+
+    "shape": [
+        "rund",
+        "stachel"
+    ],
+
+    "location": [
+        "mitte",
+        "rechts",
+        "mitte-rechts"
+    ],
+    "other_description": [
+        "krankheit"
+    ]
+
+
+}

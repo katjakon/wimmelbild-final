@@ -1,0 +1,24 @@
+{
+
+    "color": [
+        "gelb",
+        "rot",
+        "blau"
+    ],
+
+    "shape": [
+        "rund",
+        "birne"
+    ],
+
+    "location":[
+        "mitte", 
+        "oben",
+        "mitte-oben"
+    ],
+    "other_description": [
+        "strom"
+    ]
+
+
+}
